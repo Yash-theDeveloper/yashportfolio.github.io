@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+/* navigation bar */
+#navigation{
+    height:80px;
+    background-color:#060606 !important;
+  }
+  
+  #nav{
+    list-style: none !important;
+  }
+  #About{
+    color: #f0860c;
+   
+  }
+
+  #contact{
+    position: relative;
+    left: 580px;
+    }
+
+
+  #nav li{
+    margin: 0 25px;
+  }
+  #nav li a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+#nav .contact{
+    position: relative;
+    left: 580px;
+    }
+  
+
+#aboutbanner{
+    color: #fff;
+}
+
+#head-2{
+  /* margin-top: 45px; */
+    position: relative;
+    bottom:  0px;
+    animation-name: animhead;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: all 0.1s;
+  }
+
+#person-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    pointer-events: none;
+    position: relative;
+    bottom: 0;
+    /* animation-name: animhead;
+    animation-duration: 2s;
+    transition: all 0.4s; */
+    border-radius: 50px;
+  }
+
+  
+@keyframes animhead {
+    from{bottom:-50px}
+    to{bottom: 0;}  
+  }
+
+
+  .paragraph{
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.parahead{
+  text-shadow: 5px 5px #318174;
+}
+
+.para-2 {
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.para-3 {
+  margin-top: 25px;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+} 
+
+#talk{
+  text-decoration: none;
+  color: #f0860c;
+}

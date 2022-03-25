@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: black;
+    
+  }
+  
+  
+  /* navigation bar */
+  #navigation{
+    height:80px;
+    background-color:#060606 !important;
+    
+  }
+  
+  
+  #nav{
+    list-style: none !important;
+    
+  }
+  h2{
+    padding-top: 15%;
+  }
+  
+  
+  #contact{
+  position: relative;
+  left: 580px;
+  color: #f0860c;
+  }
+  
+  
+  #nav li{
+    margin: 0 25px;
+  }
+  #nav li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  #banner{
+    height: 100vh;
+    background-color: black;
+    /* margin-block-start: 0.55em;
+    margin-block-end: 0.57em;
+    margin-inline-start: 0px;
+    /* margin-inline-end: 5px;  */
+  }
+  #head-2{
+    margin-top: 45px;
+    position: relative;
+    bottom: 0px;
+    animation-name: animhead;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: all 0.1s;
+  }
+  
+  
+  .twolines{
+    margin-top: 25px;
+    color: rgb(130, 145, 150);
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: 300;
+  }
+  .twoline-2{
+    margin-top: 25px;
+    color: rgb(130, 145, 150);
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 300;
+  }
+  
+  .aboutlink a{
+    margin-top: 25px;
+    color: #f0860c;
+    font-size: 19px;
+    font-weight: bolder;
+    line-height: 26px;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  
+  #person-img{
+    width: 500px;
+    height: 500px;
+    pointer-events: none;
+    position: relative;
+    bottom: 200px;
+    /* animation-name: animhead;
+    animation-duration: 2s;
+    transition: all 0.4s; */
+    border-radius: 50px;
+  }
+  
+  
+  @keyframes animhead {
+    from{bottom:-50px}
+    to{bottom: 0;}  
+  }
+  
+  @media screen {
+    #person-img{
+      display: block;
+      max-width: 772px
+     
+    }
+    
+  }
+
+#inputname, #inputemail, textarea{
+  display: block;
+  width: 100%; 
+  background-color: rgba(83, 76, 76, 0.5);
+  outline: none;
+  border: none;
+  margin-left: -50px;
+  margin-top: 10px; 
+  color: #fff;
+}
+  
+.form-label{
+ margin-left: -50px;
+}
+
+.btn-primary{
+  /* margin-left: 100px; */
+  display: block;
+}
